@@ -30,9 +30,6 @@ class Assignment_2 {
 
   }
 
-
-  // Factorial
-
   def factorial(num: Int): Int = {
     if (num == 1) {
       return 1
