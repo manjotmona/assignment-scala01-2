@@ -15,18 +15,18 @@
     val six = 6
     val list = List(one,two,three,four,five,six)
 
-    println("String Interpolation:\n")
+    print("String Interpolation:\n")
     obj.stringInterpolation(list)
-    println("Maximum number in list is:\n")
+    print("Maximum number in list is:\n")
 
-    println(obj.maximum(list) + "\n")
-    println("Nth Fibonacci number:\n")
+    print(obj.maximum(list) + "\n")
+    print("Nth Fibonacci number:\n")
 
-    println(obj.fabonacci(5) + "\n")
-    println("Sum of Digits of Factorial:\n")
+    print(obj.fabonacci(five) + "\n")
+    print("Sum of Digits of Factorial:\n")
 
 
-    val factorial = obj.factorial(5)
-    println(obj.sumOfDigits(factorial))
+    val factorial = obj.factorial(five)
+    print(obj.sumOfDigits(factorial))
 
 }
